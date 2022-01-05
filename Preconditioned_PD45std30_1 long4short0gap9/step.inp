@@ -1,0 +1,25 @@
+** STEP: Step-1
+** 
+*Step, name=Step-1, nlgeom=YES
+*Dynamic, application=QUASI-STATIC, initial=NO
+1., 1., 1e-09, 1.
+** ---------------------------------------------------------------------
+** LOADS
+*Cload, amplitude=Amp_Fx
+4008, 1, 1
+*Cload, amplitude=Amp_Fx
+4017, 1, -1
+*Cload, amplitude=Amp_Fy
+4026, 2, 1
+*Cload, amplitude=Amp_Fy
+4035, 2, -1
+** ---------------------------------------------------------------------
+** OUTPUT REQUESTS
+** 
+*output, field, time points=TimePoints-1
+*element output,POSITION=CENTROIDAL
+ S,LE,EE,SDV,STH
+*node output
+ U,RF
+*OUTPUT, HISTORY, FREQUENCY=1
+*End Step

@@ -1,0 +1,204 @@
+** PART INSTANCE: bar_1 
+*System 
+*Node 
+      4001,           83.642655500,           15.034503500,           0. 
+      4002,           83.992455500,           11.240543500,           0. 
+      4003,           84.342155500,           7.446633500,           0. 
+*Element, type=B31H 
+3001, 4001, 4002 
+3002, 4002, 4003 
+*Nset, nset=bar_1_setAll, generate 
+4001, 4003,   1 
+*Elset, elset=bar_1_setAll, generate 
+3001, 3002,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_1_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_2 
+*System 
+*Node 
+      4004,           86.118255500,           -0.100156500,           0. 
+      4005,           85.775855500,           -3.894736500,           0. 
+      4006,           85.433455500,           -7.689296500,           0. 
+*Element, type=B31H 
+3003, 4004, 4005 
+3004, 4005, 4006 
+*Nset, nset=bar_2_setAll, generate 
+4004, 4006,   1 
+*Elset, elset=bar_2_setAll, generate 
+3003, 3004,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_2_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_3 
+*System 
+*Node 
+      4007,           83.992455500,           11.240543500,           0. 
+      4008,           84.884155500,           3.672903500,           0. 
+      4009,           85.775855500,           -3.894736500,           0. 
+*Element, type=B31H 
+3005, 4007, 4008 
+3006, 4008, 4009 
+*Nset, nset=bar_3_setAll, generate 
+4007, 4009,   1 
+*Elset, elset=bar_3_setAll, generate 
+3005, 3006,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_3_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_4 
+*System 
+*Node 
+      4010,           -79.834144500,           -7.688696500,           0. 
+      4011,           -80.183944500,           -3.894736500,           0. 
+      4012,           -80.533644500,           -0.100826500,           0. 
+*Element, type=B31H 
+3007, 4010, 4011 
+3008, 4011, 4012 
+*Nset, nset=bar_4_setAll, generate 
+4010, 4012,   1 
+*Elset, elset=bar_4_setAll, generate 
+3007, 3008,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_4_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_5 
+*System 
+*Node 
+      4013,           -82.309744500,           7.445963500,           0. 
+      4014,           -81.967344500,           11.240543500,           0. 
+      4015,           -81.624944500,           15.035103500,           0. 
+*Element, type=B31H 
+3009, 4013, 4014 
+3010, 4014, 4015 
+*Nset, nset=bar_5_setAll, generate 
+4013, 4015,   1 
+*Elset, elset=bar_5_setAll, generate 
+3009, 3010,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_5_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_6 
+*System 
+*Node 
+      4016,           -80.183944500,           -3.894736500,           0. 
+      4017,           -81.075644500,           3.672903500,           0. 
+      4018,           -81.967344500,           11.240543500,           0. 
+*Element, type=B31H 
+3011, 4016, 4017 
+3012, 4017, 4018 
+*Nset, nset=bar_6_setAll, generate 
+4016, 4018,   1 
+*Elset, elset=bar_6_setAll, generate 
+3011, 3012,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_6_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_7 
+*System 
+*Node 
+      4019,           13.311655500,           86.020503500,           0. 
+      4020,           9.517695500,           86.369803500,           0. 
+      4021,           5.723735500,           86.719103500,           0. 
+*Element, type=B31H 
+3013, 4019, 4020 
+3014, 4020, 4021 
+*Nset, nset=bar_7_setAll, generate 
+4019, 4021,   1 
+*Elset, elset=bar_7_setAll, generate 
+3013, 3014,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_7_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_8 
+*System 
+*Node 
+      4022,           -1.914984500,           87.348803500,           0. 
+      4023,           -5.709184500,           87.002103500,           0. 
+      4024,           -9.503344500,           86.655503500,           0. 
+*Element, type=B31H 
+3015, 4022, 4023 
+3016, 4023, 4024 
+*Nset, nset=bar_8_setAll, generate 
+4022, 4024,   1 
+*Elset, elset=bar_8_setAll, generate 
+3015, 3016,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_8_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_9 
+*System 
+*Node 
+      4025,           9.517695500,           86.369803500,           0. 
+      4026,           1.904255500,           86.686003500,           0. 
+      4027,           -5.709184500,           87.002103500,           0. 
+*Element, type=B31H 
+3017, 4025, 4026 
+3018, 4026, 4027 
+*Nset, nset=bar_9_setAll, generate 
+4025, 4027,   1 
+*Elset, elset=bar_9_setAll, generate 
+3017, 3018,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_9_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_10 
+*System 
+*Node 
+      4028,           -9.503144500,           -78.674696500,           0. 
+      4029,           -5.709184500,           -79.023996500,           0. 
+      4030,           -1.915224500,           -79.373296500,           0. 
+*Element, type=B31H 
+3019, 4028, 4029 
+3020, 4029, 4030 
+*Nset, nset=bar_10_setAll, generate 
+4028, 4030,   1 
+*Elset, elset=bar_10_setAll, generate 
+3019, 3020,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_10_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_11 
+*System 
+*Node 
+      4031,           5.723495500,           -80.002996500,           0. 
+      4032,           9.517695500,           -79.656296500,           0. 
+      4033,           13.311855500,           -79.309696500,           0. 
+*Element, type=B31H 
+3021, 4031, 4032 
+3022, 4032, 4033 
+*Nset, nset=bar_11_setAll, generate 
+4031, 4033,   1 
+*Elset, elset=bar_11_setAll, generate 
+3021, 3022,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_11_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.
+** PART INSTANCE: bar_12 
+*System 
+*Node 
+      4034,           -5.709184500,           -79.023996500,           0. 
+      4035,           1.904255500,           -79.340196500,           0. 
+      4036,           9.517695500,           -79.656296500,           0. 
+*Element, type=B31H 
+3023, 4034, 4035 
+3024, 4035, 4036 
+*Nset, nset=bar_12_setAll, generate 
+4034, 4036,   1 
+*Elset, elset=bar_12_setAll, generate 
+3023, 3024,   1 
+** Section: SteelBeamSec  Profile: Circular 
+*Beam Section, elset=bar_12_setAll, material=Steel, poisson = 0.3, temperature=GRADIENTS, section=CIRC
+0.5
+0.,0.,-1.

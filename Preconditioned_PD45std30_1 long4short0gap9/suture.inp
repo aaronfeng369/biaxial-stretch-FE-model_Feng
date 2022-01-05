@@ -1,0 +1,208 @@
+** PART INSTANCE: suture_1 
+*System 
+*Node 
+      3001,           4.302324600,           6.400055000,           0. 
+      3002,           83.642655500,           15.034503500,           0. 
+*Element, type=B31H 
+2001, 3001, 3002 
+*Elset, elset=suture_1_setAll 
+2001  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_1_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_2 
+*System 
+*Node 
+      3003,           5.413405200,           4.272113000,           0. 
+      3004,           84.342155500,           7.446633500,           0. 
+*Element, type=B31H 
+2002, 3003, 3004 
+*Elset, elset=suture_2_setAll 
+2002  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_2_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_3 
+*System 
+*Node 
+      3005,           6.524485800,           2.144171000,           0. 
+      3006,           86.118255500,           -0.100156500,           0. 
+*Element, type=B31H 
+2003, 3005, 3006 
+*Elset, elset=suture_3_setAll 
+2003  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_3_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_4 
+*System 
+*Node 
+      3007,           7.635566400,           0.016229000,           0. 
+      3008,           85.433455500,           -7.689296500,           0. 
+*Element, type=B31H 
+2004, 3007, 3008 
+*Elset, elset=suture_4_setAll 
+2004  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_4_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_5 
+*System 
+*Node 
+      3009,           -0.493813600,           0.945752000,           0. 
+      3010,           -79.834144500,           -7.688696500,           0. 
+*Element, type=B31H 
+2005, 3009, 3010 
+*Elset, elset=suture_5_setAll 
+2005  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_5_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_6 
+*System 
+*Node 
+      3011,           -1.604894200,           3.073694000,           0. 
+      3012,           -80.533644500,           -0.100826500,           0. 
+*Element, type=B31H 
+2006, 3011, 3012 
+*Elset, elset=suture_6_setAll 
+2006  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_6_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_7 
+*System 
+*Node 
+      3013,           -2.715974800,           5.201636000,           0. 
+      3014,           -82.309744500,           7.445963500,           0. 
+*Element, type=B31H 
+2007, 3013, 3014 
+*Elset, elset=suture_7_setAll 
+2007  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_7_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_8 
+*System 
+*Node 
+      3015,           -3.827055400,           7.329578000,           0. 
+      3016,           -81.624944500,           15.035103500,           0. 
+*Element, type=B31H 
+2008, 3015, 3016 
+*Elset, elset=suture_8_setAll 
+2008  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_8_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_9 
+*System 
+*Node 
+      3017,           2.879439000,           7.452038200,           0. 
+      3018,           13.311655500,           86.020503500,           0. 
+*Element, type=B31H 
+2009, 3017, 3018 
+*Elset, elset=suture_9_setAll 
+2009  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_9_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_10 
+*System 
+*Node 
+      3019,           0.789027000,           7.691058400,           0. 
+      3020,           5.723735500,           86.719103500,           0. 
+*Element, type=B31H 
+2010, 3019, 3020 
+*Elset, elset=suture_10_setAll 
+2010  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_10_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_11 
+*System 
+*Node 
+      3021,           -1.301385000,           7.930078600,           0. 
+      3022,           -1.914984500,           87.348803500,           0. 
+*Element, type=B31H 
+2011, 3021, 3022 
+*Elset, elset=suture_11_setAll 
+2011  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_11_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_12 
+*System 
+*Node 
+      3023,           -3.391797000,           8.169098800,           0. 
+      3024,           -9.503344500,           86.655503500,           0. 
+*Element, type=B31H 
+2012, 3023, 3024 
+*Elset, elset=suture_12_setAll 
+2012  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_12_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_13 
+*System 
+*Node 
+      3025,           0.929072000,           -0.106231200,           0. 
+      3026,           -9.503144500,           -78.674696500,           0. 
+*Element, type=B31H 
+2013, 3025, 3026 
+*Elset, elset=suture_13_setAll 
+2013  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_13_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_14 
+*System 
+*Node 
+      3027,           3.019484000,           -0.345251400,           0. 
+      3028,           -1.915224500,           -79.373296500,           0. 
+*Element, type=B31H 
+2014, 3027, 3028 
+*Elset, elset=suture_14_setAll 
+2014  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_14_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_15 
+*System 
+*Node 
+      3029,           5.109896000,           -0.584271600,           0. 
+      3030,           5.723495500,           -80.002996500,           0. 
+*Element, type=B31H 
+2015, 3029, 3030 
+*Elset, elset=suture_15_setAll 
+2015  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_15_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
+** PART INSTANCE: suture_16 
+*System 
+*Node 
+      3031,           7.200308000,           -0.823291800,           0. 
+      3032,           13.311855500,           -79.309696500,           0. 
+*Element, type=B31H 
+2016, 3031, 3032 
+*Elset, elset=suture_16_setAll 
+2016  
+** Section: SteelBeamSec 
+*Beam Section, elset=suture_16_setAll, material=Steel, , poisson = 0.3, temperature=GRADIENTS, section=CIRC 
+0.5 
+0.,0.,-1. 
